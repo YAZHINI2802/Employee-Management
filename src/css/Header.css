@@ -1,0 +1,60 @@
+
+/* Main Header */
+.header {
+    width: 100%;
+    min-height: 70px;
+    padding: 12px 24px;
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Left Section */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Logo Icon */
+.header-left svg {
+    width: 26px;
+    height: 26px;
+    color: #414B30;
+}
+
+/* Application Name */
+.header-left h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #414B30;
+    margin: 0;
+    letter-spacing: 0.1px;
+   
+}
+
+/* Right Section */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Right Side Icons */
+.header-right svg {
+    width: 22px;
+    height: 22px;
+    color: #414B30;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+/* Icon Hover */
+.header-right svg:hover {
+    color: #A7B18B;
+}

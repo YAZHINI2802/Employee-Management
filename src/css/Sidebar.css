@@ -1,0 +1,32 @@
+.side-bar {
+    width: 210px;
+    min-height: calc(100vh - 70px);
+    background-color: #F5F5F0;
+    border-right: 1px solid #E5E5DF;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.sidebar-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 13px 15px;
+    border: none;
+    background: transparent;
+    color: #414B30;
+    font-size: 15px;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sidebar-item:hover {
+    background-color: #DDE5C1;
+}
+
+.sidebar-item.active {
+    background-color: #414B30;
+    color: #FFFFFF;
+}
