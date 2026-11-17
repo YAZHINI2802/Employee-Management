@@ -1,0 +1,15 @@
+.employee-list {
+    width: 100%;
+}
+
+.employee-list h2 {
+    color: #414B30;
+    margin-bottom: 20px;
+}
+
+.employee-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}

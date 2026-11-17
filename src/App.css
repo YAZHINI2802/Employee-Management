@@ -1,0 +1,14 @@
+.app-layout {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.app-layout > * {
+    flex-shrink: 0;
+}
+
+.app-layout > :last-child {
+    flex: 1;
+    min-width: 0;
+}
